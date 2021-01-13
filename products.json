@@ -4,7 +4,7 @@
       "sys": { "id": "1" },
       "fields": {
         "title": "Fender Stratocaster",
-        "price": 1.599,
+        "price": 1599,
         "image": { "fields": { "file": { "url": "./images/product-1.jpg" } } }
       }
     },
@@ -12,7 +12,7 @@
       "sys": { "id": "2" },
       "fields": {
         "title": "Fender Telecaster",
-        "price": 3.499,
+        "price": 3499,
         "image": { "fields": { "file": { "url": "./images/product-2.jpg" } } }
       }
     },
@@ -20,7 +20,7 @@
       "sys": { "id": "3" },
       "fields": {
         "title": "Gibson Les Paul",
-        "price": 6.499,
+        "price": 6499,
         "image": { "fields": { "file": { "url": "./images/product-3.jpg" } } }
       }
     },
@@ -28,7 +28,7 @@
       "sys": { "id": "4" },
       "fields": {
         "title": "Gibson ES-335",
-        "price": 5.299,
+        "price": 5299,
         "image": { "fields": { "file": { "url": "./images/product-4.jpg" } } }
       }
     },
@@ -44,7 +44,7 @@
       "sys": { "id": "6" },
       "fields": {
         "title": "Gibson Hollow Body",
-        "price": 9.999,
+        "price": 9999,
         "image": { "fields": { "file": { "url": "./images/product-6.jpg" } } }
       }
     },
@@ -52,7 +52,7 @@
       "sys": { "id": "7" },
       "fields": {
         "title": "PRS",
-        "price": 1.999,
+        "price": 1999,
         "image": { "fields": { "file": { "url": "./images/product-7.jpg" } } }
       }
     },
@@ -60,7 +60,7 @@
       "sys": { "id": "8" },
       "fields": {
         "title": "Jackson",
-        "price": 1.999,
+        "price": 1999,
         "image": { "fields": { "file": { "url": "./images/product-8.jpg" } } }
       }
     }
