@@ -1,3 +1,37 @@
+//lenguajes
+const data= {
+    "english": {
+        "title": "Guitar collection",
+        "shop": "Shop Now"
+    },
+    "español": {
+        "title": "Colección de guitarras",
+        "shop": "Comprar ahora"
+    },
+    "chinese":{
+        "title": "吉他收藏",
+        "shop": "现在去购物"
+    },
+    "arabic": {
+        "title": "جمع الغيتار",
+        "shop": "تسوق الآن"
+    }
+}
+const langEl = document.querySelector(".langWrap");
+const link = document.querySelectorAll("a");
+const titleEl = document.querySelector(".banner-title");
+const shopEl = document.querySelector(".banner-btn");
+
+link.forEach( el => {
+    el.addEventListener("click", () => {
+        langEl.querySelector(".active").classList.remove("active");
+        el.classList.add("active");
+        const attr = el.getAttribute("language");
+        titleEl.textContent = data[attr].title;
+        shopEl.textContent = data[attr].shop;
+    });
+});
+
 //variables
 
 const cartBtn = document.querySelector(".cart-btn");
