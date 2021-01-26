@@ -1,4 +1,4 @@
-# e-commerce-guitarhouse
+# E-Commerce Guitarhouse
 
 Puede verse aquí: https://guitar-house.netlify.app/
 
